@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input{
+    width: 291px;
+    font-size: 20px; 
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
